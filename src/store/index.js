@@ -3,7 +3,7 @@ import reducer from './reducer'
 const createStore = redux.createStore
 
 let initState = {
-  count: 3
+  count: 0
 }
 
 export default createStore(reducer, initState)
